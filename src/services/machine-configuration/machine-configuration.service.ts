@@ -4,6 +4,6 @@ import { MachineConfiguration } from '../../entities/machine-configuration';
 @Injectable()
 export class MachineConfigurationService {
   getMachineConfiguration(): MachineConfiguration {
-    return null;
+    return null; //TODO: get information from HMI
   }
 }
